@@ -8,10 +8,12 @@ int main() {
         std::cout << "Alertas del minuto " << minuto << ": ";
         std::cin >> alertas;
 
-        int total = 0;
+        
         total += alertas;
     }
 
     std::cout << "Total de alertas: " << total << '\n';
     return 0;
 }
+
+// EL ERROR EN ESTE CODIGO ERA QUE HABIA UN int total = 0 DENTRO DEL BUCLE
